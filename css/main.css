@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+}
+
+
+h2 {
+    font-family: "Fraunces";
+}
+
+p {
+    font-family: 'Barlow';
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0); 
+    -webkit-clip-path: inset(50%); 
+            clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+.header-heading {
+    display: flex;
+}
+
+.header-heading__navigation ul {
+    display: flex;
+    
+    margin-top: 30px;
+    margin-left: 580px;
+}
+
+.header-heading__navigation ul li {
+    list-style: none;
+    padding-left: 10px;
+    
+}
+
+.header-heading__navigation ul li a {
+    text-decoration: none;
+    color: #83888F;
+}
+
+
+                   /* "SECTION-1" */
+
+
+                               
+.section-hero {
+    position: relative;
+    background-image: url(../img/Bitmap.png);
+    max-width: 1300px;
+    background-repeat: no-repeat;
+    min-height: 605px;
+    
+
+}                 
+
+.section-hero__subtitle {
+    font-size: 70px;
+    width: 490px;
+    color: #FEFCF7;
+    line-height: 70px;
+    padding: 41px 44px 20px  44px;
+}
+
+.section-hero__title {
+    color:#FEFCF7;
+    opacity: 0.8;
+    width: 445px;
+    padding-left: 55px;
+    line-height: 26px;
+}
+
+.btn {
+    border: 1px solid #0E8784;
+    margin: 80px;
+    border-radius: 6px;
+    background-color: #0E8784;
+    color: #FEFCF7;
+    padding: 15px 40px;
+    font-family: 'Fraunces 9pt';
+    font-size: 18px;
+    line-height: 25px;   
+}
+
+
+                     /* SECTION-2 */
+
+.car {
+    display: flex;
+    margin: 180px;
+}
+
+
+
+
+
+
+                 /* SECTION-3 */
+
+.sect-3-box{
+    /* position: relative; */
+    background-color: #2C343E;
+    height: 520px;
+    border-radius: 8px;
+}
+
+.sect-3-box h2 {
+    text-align: center;
+    color: #FEFCF7;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    padding: 100px 0 5px 0;
+}
+
+.sect-3-box p {
+    color:#FEFCF7;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    width: 550px;
+    height: 80px;   
+    margin-left: 330px;
+}
+
+.kurama {
+    /* position: absolute; */
+    border: 1px solid  #0E8784;
+    padding: 30px;
+    width: 350px;
+    height: 380px;
+    margin-top: -206px;
+    margin-left: 35px;
+    background-color: #0E8784;
+    
+}
+
+.kurama h2 {
+    color: #FEFCF7;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.kurama p {
+    color:#FEFCF7;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.kurama img {
+    margin-left: 98px;
+    margin-bottom: 45px;
+}
+
+.pather {
+    display: flex;
+    margin-left: 300px;
+}
+
+                /* SECTION-4 */
+  
+.sect-4 {
+    margin-top: 200px;
+    margin-bottom: 70px;
+    
+}
+
+.sect-4 h2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 90px;
+}                
+  
+.mather {
+    display: flex;
+}
+
+.circle-1 {
+    border: 2px solid #0E8784;
+    width: 58px;
+    height: 48px;
+    background: #FEFCF7;
+    color:#0E8784 ;
+    border-radius: 50%;
+}
+
+.circle-2 {
+    border-bottom: 1px solid #FDD6BA;
+    Width:660px;
+    Height:1px;
+    Top:127px;
+    Left:15.5px;
+    margin-top: 26px;
+}
+
+              /* <!-- SECTION-5  --> */
+
+
+.banan {
+    margin-left: 95px;
+}
+
+.banan__spa{
+    width: 90px;
+    height: 72px;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    font-family: 'Fraunces';
+    
+}
+
+.banan__subtitle {
+    width: 350px;   
+    height: 73px;
+    font-size: 42px;
+    line-height: 36px;
+    font-family: 'Fraunces';
+    color: #333D4B;
+}
+
+.banan__title {
+    width: 285px;
+    height: 130px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.pather-banan {
+    display: flex;
+    
+}
+
+
+
+.box {
+    background-color: #2C343E;
+}
+
+.foot-img {
+    height: 24px;
+    padding-left: 60px;
+    margin-right: 78px;
+}
+
+.napalon  ul{
+    display: flex;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.napalon ul li a {
+    text-decoration: none;
+    color: #83888F;
+    line-height: 15px;
+    padding-right: 20px;   
+    height: 15px; 
+    
+}
+
+.linker {
+    margin-left: 325px;
+    width: 109px;
+    height: 21px;
+    margin-top: 29px;
+}
+
