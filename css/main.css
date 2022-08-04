@@ -28,9 +28,11 @@ p {
 
 .btn {
   border: 1px solid #0E8784;
+  background-color: #0E8784;
+  display: inline-block;
+  text-decoration: none;
   margin: 80px;
   border-radius: 6px;
-  background-color: #0E8784;
   color: #fefcf7;
   padding: 15px 40px;
   font-family: "Fraunces 9pt";
@@ -43,23 +45,33 @@ p {
 }
 
 .header-heading__navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
   display: flex;
   margin-top: 30px;
   margin-left: 580px;
 }
 
 .header-heading__navigation ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
   padding-left: 10px;
 }
 
 .header-heading__navigation ul li a {
   text-decoration: none;
+  list-style: none;
   color: #83888f;
 }
 
 .section-hero {
   position: relative;
   background-image: url(../img/Bitmap.png);
+  border-radius: 8px;
   max-width: 1300px;
   background-repeat: no-repeat;
   min-height: 605px;
@@ -216,6 +228,7 @@ p {
 }
 
 .box {
+  margin-top: 100px;
   background-color: #2c343e;
 }
 
@@ -226,8 +239,11 @@ p {
 }
 
 .napalon ul {
-  display: flex;
+  margin: 0;
+  padding: 0;
   list-style: none;
+  text-decoration: none;
+  display: flex;
   padding-top: 15px;
 }
 
@@ -244,4 +260,92 @@ p {
   width: 109px;
   height: 21px;
   margin-top: 29px;
+}
+
+.snipped__box img {
+  border-radius: 8px;
+  margin-right: 100px;
+}
+
+.snipped__boxer h2 {
+  color: #333D4B;
+  font-size: 48px;
+  line-height: 40px;
+  font-weight: bolder;
+}
+
+.snipped {
+  margin-top: 200px;
+  display: flex;
+}
+
+.snipped__boxer {
+  margin-top: 76px;
+}
+
+.snipped__boxer p {
+  width: 510px;
+  color: #333D4B;
+  opacity: 0.8;
+  line-height: 25px;
+}
+
+.widget {
+  margin: 50px;
+  background-color: #2C343E;
+  height: 600px;
+  border-radius: 10px;
+  margin-top: 280px;
+}
+
+.widget__box h2 {
+  color: #FEFCF7;
+  font-size: 40px;
+  line-height: 48px;
+  padding: 90px 90px 40px 90px;
+}
+
+.widget__box p {
+  color: #FEFCF7;
+  opacity: 0.8;
+  width: 600px;
+  padding-left: 90px;
+  line-height: 27px;
+}
+
+.widget__big-box {
+  display: flex;
+  position: relative;
+}
+
+.wiget__boxer img {
+  position: absolute;
+  transform: translate(67px, -100px);
+  border-radius: 10px;
+}
+
+.content h2 {
+  color: #83888F;
+  font-size: 24px;
+  line-height: 180px;
+}
+
+.content__box h3 {
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.content__box p {
+  width: 120px;
+  padding-left: 10px;
+  line-height: 26px;
+}
+
+.content__big-box {
+  display: flex;
+}
+
+.content__box--primary {
+  margin-left: 160px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixins";
 @import "./common";
 @import "./blocks/header-heading";
 @import "./blocks/section-hero";
@@ -8,5 +9,8 @@
 @import "./blocks/banan";
 @import "./blocks/footer";
 
+@import "./blocks/snipped";
+@import "./blocks/widget";
+@import "./blocks/content";
 
 
