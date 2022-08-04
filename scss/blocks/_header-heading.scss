@@ -1,0 +1,20 @@
+.header-heading {
+    display: flex;
+  }
+  
+  .header-heading__navigation ul {
+    display: flex;
+  
+    margin-top: 30px;
+    margin-left: 580px;
+  }
+  
+  .header-heading__navigation ul li {
+    @include reset-list;
+    padding-left: 10px;
+  }
+  
+  .header-heading__navigation ul li a {
+    text-decoration: none;
+    color: #83888f;
+  }

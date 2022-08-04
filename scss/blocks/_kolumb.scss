@@ -1,0 +1,33 @@
+.kolumb {
+    margin-top: 200px;
+    margin-bottom: 70px;
+  }
+  
+  .kolumb h2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+    margin-bottom: 90px;
+  }
+  
+  .kolumb__mather {
+    display: flex;
+  }
+  
+  .kolumb__circle-1 {
+    border: 2px solid $color-primary;
+    width: 58px;
+    height: 48px;
+    background: #fefcf7;
+    color: $color-primary;
+    border-radius: 50%;
+  }
+  
+  .kolumb__circle-2 {
+    border-bottom: 1px solid #fdd6ba;
+    width: 660px;
+    height: 1px;
+    top: 127px;
+    left: 15.5px;
+    margin-top: 26px;
+  }

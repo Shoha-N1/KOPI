@@ -1,0 +1,31 @@
+.box {
+    background-color: #2c343e;
+  }
+  
+  .foot-img {
+    height: 24px;
+    padding-left: 60px;
+    margin-right: 78px;
+  }
+  
+  .napalon ul {
+    @include reset-list;
+    display: flex;
+    padding-top: 15px;
+  }
+  
+  .napalon ul li a {
+    text-decoration: none;
+    color: #83888f;
+    line-height: 15px;
+    padding-right: 20px;
+    height: 15px;
+  }
+  
+  .linker {
+    margin-left: 325px;
+    width: 109px;
+    height: 21px;
+    margin-top: 29px;
+  }
+  

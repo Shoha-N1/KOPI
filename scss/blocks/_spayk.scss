@@ -1,0 +1,64 @@
+.spayk{
+  
+    background-color: #2c343e;
+    height: 520px;
+    border-radius: 8px;
+  }
+  
+  .spayk h2 {
+    text-align: center;
+    color: #fefcf7;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    padding: 100px 0 5px 0;
+  }
+  
+  .spayk p {
+    color: #fefcf7;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    width: 550px;
+    height: 80px;
+    margin-left: 330px;
+  }
+  
+  .spayk__kurama {
+    /* position: absolute; */
+    border: 1px solid $color-primary;
+    padding: 30px;
+    width: 350px;
+    height: 380px;
+    margin-top: -206px;
+    margin-left: 35px;
+    background-color: $color-primary;
+    border-radius: 8px;
+  }
+  
+  .spayk__kurama h2 {
+    color: #fefcf7;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+  
+  .spayk__kurama p {
+    color: #fefcf7;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .spayk__kurama img {
+    margin-left: 98px;
+    margin-bottom: 45px;
+  }
+  
+  .spayk__pather {
+    display: flex;
+    margin-left: 100px;
+  }
+  
