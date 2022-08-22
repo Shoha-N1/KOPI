@@ -1,5 +1,4 @@
 .spayk{
-  
     background-color: #2c343e;
     height: 520px;
     border-radius: 8px;
@@ -25,14 +24,16 @@
     margin-left: 330px;
   }
   
+  .sectioned {
+    position: relative;
+  }
+
   .spayk__kurama {
-    /* position: absolute; */
     border: 1px solid $color-primary;
     padding: 30px;
     width: 350px;
-    height: 380px;
-    margin-top: -206px;
-    margin-left: 35px;
+    margin-top: -204px;
+    margin-right: 20px;
     background-color: $color-primary;
     border-radius: 8px;
   }
@@ -58,6 +59,7 @@
   }
   
   .spayk__pather {
+    position: absolute;
     display: flex;
     margin-left: 100px;
   }
