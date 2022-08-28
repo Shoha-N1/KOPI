@@ -4,10 +4,13 @@
   
   h2 {
     font-family: "Fraunces";
+    margin: 0;
   }
-  
+
+ 
   p {
     font-family: "Barlow";
+    margin: 0;
   }
   
   .container {
@@ -27,8 +30,12 @@
   }
 
   .btn {
+    
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 89px;
     @include reset-button;
-    margin: 80px;
+  
     border-radius: 6px;
     color: #fefcf7;
     padding: 15px 40px;
@@ -36,3 +43,22 @@
     font-size: 18px;
     line-height: 25px;
   }
+
+
+  @media (max-width:$tab) {
+    .bolf {
+      flex-wrap: wrap;
+      
+    }
+    
+    .card {
+      display: flex;
+    }
+  }
+
+  @media (max-width:$phone) {
+    .card {
+     flex-wrap: wrap;
+    }
+  }
+  

@@ -1,5 +1,46 @@
 
-.card__car {
+.bolf {
     display: flex;
-    margin: 180px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+  }
+
+  .card img {
+    padding-bottom: 50px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  .card p {
+    font-size: 19px;
+    width: 340px;
+    line-height: 34px;
+  }
+
+  .oppolon {
+    font-size: 115px;
+    margin-top: 50px;
+    z-index: -1;
+    right: 570px;
+    color: #83888f;
+    opacity: 0.6;
+  }
+
+  .card {
+    width: 480px;
+    padding: 25px;
+  }
+
+  .card h3 {
+    font-size: 28px;
+    line-height: 32px;
+    color: #333d4b;
+    margin-bottom: 24px;
+  }
+
+  .card__car img {
+    width: 235px;
+    height: 228px;
   }
