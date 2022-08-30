@@ -1,6 +1,6 @@
 .spayk{
   background-color: #333d4b;
-  width: 100%;
+  width: 92%;
   height: 500px;
   border-radius: 15px;
   text-align: center;
@@ -8,19 +8,20 @@
     
   }
   
- 
-
+  
   .spayk h2 {
-    
+     width: 330px;
     text-align: center;
     color: #fefcf7;
     font-size: 40px;
     line-height: 48px;
     margin-bottom: 40px;
+    margin-left: -107px;
    
   }
   
   .spayk p {
+    margin-left: -208px;
     color: #fefcf7;
     opacity: 0.8;
     text-align: center;
@@ -28,18 +29,17 @@
     line-height: 26px;
     width: 550px;
     height: 80px;
-    margin-left: -2px;
+   
   }
  
 
   .spayk__kurama {
-    border: 1px solid $color-primary;
-    padding: 46px;
-    width: 350px;
-    height: 380px;
-    margin-top: 24px;
-    margin-right: 20px;
-    background-color: $color-primary;
+    border: 1px solid #0E8784;
+    padding: 44px;
+    margin-top: 37px;
+    padding-right: 24px;
+    
+    background-color: #0E8784;
     border-radius: 8px;
  
     
@@ -50,6 +50,8 @@
     font-size: 24px;
     line-height: 32px;
     text-align: center;
+    margin-bottom: 24px;
+    
   }
   
   .spayk__kurama p {
@@ -58,10 +60,13 @@
     text-align: center;
     font-size: 16px;
     line-height: 26px;
+    width: 210px;
   }
+
+  
   
   .spayk__kurama img {
-    margin-left: 98px;
+    margin-left: 63px;
     margin-bottom: 45px;
   }
   
@@ -70,5 +75,6 @@
     position: relative;
     top: -180px;
     display: flex;
+    margin-right: 97px;
   }
   

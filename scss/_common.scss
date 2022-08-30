@@ -7,6 +7,9 @@
     margin: 0;
   }
 
+  body {
+    margin: 0 35px;
+  }
  
   p {
     font-family: "Barlow";
@@ -30,12 +33,10 @@
   }
 
   .btn {
-    
-    position: absolute;
+  
     margin-top: 90px;
     margin-left: 89px;
     @include reset-button;
-  
     border-radius: 6px;
     color: #fefcf7;
     padding: 15px 40px;
@@ -62,3 +63,60 @@
     }
   }
   
+  @media (max-width:$tab) {
+    .spayk__kurama {
+      display: flex;
+      width: 632px;
+      height: 248px;
+      
+      
+    }
+
+    .spayk__pather {
+    
+      flex-wrap: wrap;
+      
+    }
+
+    .spayk__kurama img {
+      width: 100px;
+      padding-right: 30px;
+      padding-top: 17px;
+      
+      
+    }
+    .moll {
+      margin-right: -12px;
+      padding-left: 43px;
+    }
+    
+  }
+
+  @media (max-width:$phone) {
+    .spayk__kurama {
+      flex-wrap: wrap;
+      height: 336px;
+      width: 332px;
+    }
+
+    .spayk h2 {
+      margin-left: -144px;
+    }
+    
+    .moll {
+      padding-left: 6px;
+    }
+
+    .spayk__kurama img {
+      margin-top: -32px;
+    }
+  }
+
+  @media (max-width:$tab) {
+    .box {
+      flex-wrap: wrap;
+      margin-bottom: 35px;
+    }
+
+    
+  }

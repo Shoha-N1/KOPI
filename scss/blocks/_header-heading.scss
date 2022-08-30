@@ -9,10 +9,15 @@
     margin-top: 30px;
     margin-left: 580px;
   }
+
+  .header-heading__navigation {
+    margin-right: -22px;
+  }
   
   .header-heading__navigation ul li {
     @include reset-list;
     padding-left: 10px;
+    width: 120px;
   }
   
   .header-heading__navigation ul li a {
