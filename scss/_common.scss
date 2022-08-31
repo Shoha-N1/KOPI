@@ -140,8 +140,7 @@
     transform: translateX(0%);
   }
 
-  .navbar {
-    position: absolute;
+  .navbar { 
     @media (max-width:$phone) {
       ul {
         padding-top: 30px;

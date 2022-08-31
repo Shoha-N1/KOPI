@@ -120,9 +120,6 @@ input[type=checkbox]:checked + .navbar ul {
   transform: translateX(0%);
 }
 
-.navbar {
-  position: absolute;
-}
 @media (max-width: 768px) {
   .navbar ul {
     padding-top: 30px;
