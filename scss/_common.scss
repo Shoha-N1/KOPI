@@ -132,8 +132,9 @@
         margin: 5px 0;
       }
     }
+    align-items: center;
+    justify-content: space-between;
      margin-top: 10px;
-    display: inline-block;
   }
 
   input[type="checkbox"]:checked + .navbar ul{

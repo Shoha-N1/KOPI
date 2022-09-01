@@ -102,8 +102,9 @@ p {
   }
 }
 .hamburger {
+  align-items: center;
+  justify-content: space-between;
   margin-top: 10px;
-  display: inline-block;
 }
 @media (max-width: 768px) {
   .hamburger::after, .hamburger::before {
@@ -206,6 +207,7 @@ input[type=checkbox]:checked + .navbar ul {
   min-height: 605px;
   margin-top: 23px;
   width: 1207px;
+  position: relative;
 }
 
 .section-hero h2 {
@@ -216,6 +218,10 @@ input[type=checkbox]:checked + .navbar ul {
   margin-bottom: 46px;
   padding-top: 91px;
   padding-left: 47px;
+}
+
+.bok {
+  position: absolute;
 }
 
 .section-hero__title {

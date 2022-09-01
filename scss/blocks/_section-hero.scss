@@ -6,6 +6,7 @@
     min-height: 605px;
     margin-top: 23px;
     width: 1207px;
+    position: relative;
   }
   
 
@@ -19,8 +20,10 @@
     padding-left: 47px
   }
 
-  
-  
+  .bok {
+    position: absolute;
+  }
+  // .
   .section-hero__title {
    
     color: #fefcf7;
