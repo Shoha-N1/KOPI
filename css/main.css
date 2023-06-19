@@ -432,7 +432,7 @@ h3 {
   text-decoration: none;
   display: flex;
   padding: 10px 40px;
-  margin-top: 17px;
+  margin-top: 20px;
 }
 .footer-nav ul li {
   width: 115px;
@@ -447,7 +447,7 @@ h3 {
 
 .links {
   display: flex;
-  margin-top: 30px;
+  margin-top: 25px;
   gap: 30px;
   margin-left: 100px;
 }
