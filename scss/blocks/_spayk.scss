@@ -1,80 +1,67 @@
 .spayk{
   background-color: #333d4b;
-  width: 92%;
   height: 500px;
   border-radius: 15px;
-  text-align: center;
-  padding: 90px 335px;
-    
+  padding: 20px 0;
+
   }
   
-  
   .spayk h2 {
-     width: 330px;
     text-align: center;
     color: #fefcf7;
     font-size: 40px;
-    line-height: 48px;
-    margin-bottom: 40px;
-    margin-left: -107px;
-   
+    line-height: 48px;   
+    margin-top: 20px;
   }
   // .
   .spayk p {
-    margin-left: -208px;
     color: #fefcf7;
     opacity: 0.8;
     text-align: center;
     font-size: 16px;
     line-height: 26px;
+    margin-top: 20px;
     width: 550px;
-    height: 80px;
-   
+    margin-left: 310px;
   }
- 
 
   .spayk__kurama {
     border: 1px solid #0E8784;
-    padding: 44px;
+    padding: 30px;
+    max-width: 300px;
+    height: 350px;
     margin-top: 37px;
     padding-right: 24px;
-    
     background-color: #0E8784;
     border-radius: 8px;
- 
-    
   }
   
   .spayk__kurama h2 {
     color: #fefcf7;
+    text-align: center;
     font-size: 24px;
     line-height: 32px;
-    text-align: center;
-    margin-bottom: 24px;
-    
+    margin-bottom: 10px;
   }
   
   .spayk__kurama p {
     color: #fefcf7;
     opacity: 0.8;
-    text-align: center;
     font-size: 16px;
-    line-height: 26px;
-    width: 210px;
+    line-height: 25px;
+    text-align: center;
   }
 
-  
-  
   .spayk__kurama img {
-    margin-left: 63px;
-    margin-bottom: 45px;
+    margin: 30px 80px;
+    width: 70px;
+    height: 70px;
   }
   
   .spayk__pather {
-    justify-content: space-evenly;
-    position: relative;
-    top: -180px;
     display: flex;
-    margin-right: 97px;
+    gap: 50px;
+    margin-top: -256px;
+    margin-left: 100px;
   }
   
